@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content=" width=device-width, initial-scale=1.0 ">
+<title>jQuery</title>
+
+<!--swiper-->
+<link
+  rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+
+<!--orignal-->
+<link href="css/ex4.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/ex4.js"></script>
+</head>
+
+<body id="gototop">
+
+<header>
+        <!--logo-->
+        <div class="logo">
+            <a href="#">
+            <img src="images/logo.png">
+            </a>
+        </div>
+
+        <!--menu-->
+        <div class="menu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#577590"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        </div>
+
+</header>
+
+<!--nav-->
+<nav>
+    <a href="#">About</a>
+    <a href="#">Product</a>
+    <a href="#">Contact</a>
+</nav>
+
+
+<!--hero
+<div class="hero">
+    <img src="images/hero.png" alt="hero">
+    <h1>journey</h1>
+</div>-->
+
+<!-- Swiper -->
+    <!-- swiper -->
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="images/hero.png" alt="hero">
+            <h1>Journey</h1>
+        </div>
+        <div class="swiper-slide">
+            <img src="images/map.png" alt="hero">
+            <h1>Map</h1>
+        </div>
+    </div>
+
+    <!-- <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div> -->
+
+    <div class="swiper-pagination"></div>
+</div>
+
+
+
+
+<!--menu-->
+<section>
+    <h1>— More details —</h1>
+    <!--article-->
+    <article>
+        <!--content-->
+        <div class="content">
+            <div class="a_left">
+                <img src="images/bear.png" />
+            </div>
+            <div class="a_right">
+                <h2>About jQuery & design application</h2>
+                <p>本範例介紹 jQuery 的基本概念與網頁互動設計應用，透過漢堡選單（Hamburger Menu）與摺疊內容（Accordion）等常見介面元件，學習運用 jQuery 控制元素顯示、隱藏及互動效果，理解 JavaScript 與 HTML、CSS 之間的協作關係，並提升網頁的操作體驗與互動性。</p>
+            </div>
+        </div>
+
+        <!--content-->
+        <div class="content">
+            <div class="a_left">                
+                <img src="images/map.png" />
+            </div>
+            <div class="a_right">
+                <h2>Learning map</h2>
+                <p>jQuery 階段不會只是三組長得一模一樣的內容，必須思考不同資訊的呈現方式。</p>
+            </div>
+        </div>
+
+        <!--content-->
+        <div class="content">
+            <div class="a_left">
+                <img src="images/climate.png" />
+            </div>
+            <div class="a_right">                
+                <h2>When to use</h2>
+                <p>
+                    1. 同一群內容的不同類別<br>
+                    2. 不同層次的資訊<br>
+                    3. 不同日期或階段
+                </p>
+            </div>
+        </div>
+    </article>
+    <!--aside-->
+    <aside>
+        <div class="list">說明</div>
+        <div class="list">地圖</div>
+        <div class="list">天氣</div>
+    </aside>
+</section>
+
+<!--totop-->
+<div class="totopbt">
+    <a href="#gototop">top</a>                        
+</div>
+
+
+
+<!--footer-->
+<footer>
+&copy; 此為課堂學習範例使用，請勿轉用商用。
+</footer> 
+
+</body>
+</html>
